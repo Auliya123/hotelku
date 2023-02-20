@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.pageTitle {
+	padding-top:20px;
+}
+
+.pageContent {
+	padding:40px 0;
+}
+.alert .list-group-flush .list-group-item {
+	background:transparent;
+	border-color:#FFF;
+}
+.clearform {
+	display:none;
+	opacity:0;
+}
+.clickable {
+	cursor:pointer;
+}
